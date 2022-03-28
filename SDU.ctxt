@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SDU
+comment0.text=\r\n\ Service\ Data\ Unit\ sind\ Inhalte,\ die\ \u00FCber\ das\ Netzwerk\ transportiert\ werden\ sollen.\r\n\ Diese\ sind\ (bei\ uns)\ strukturiert\ in\ Text\ und\ RGB-Werten.\r\n\ \r\n\ Die\ RGB-Werte\ k\u00F6nnen\ nicht\ gesetzt\ sein.\r\n\ \r\n\ Eine\ SDU\ kann\ die\ Struktur\ in\ Text\ und\ RGB-Werte\ auch\ aufheben\ und\ die\ RGB-Werte\ im\ Text\ kodieren\ und\ dekodieren.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-09-30\r\n
+comment1.params=text
+comment1.target=SDU(java.lang.String)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ SDU\r\n
+comment2.params=text\ red\ green\ blue
+comment2.target=SDU(java.lang.String,\ int,\ int,\ int)
+comment3.params=
+comment3.target=void\ toText()
+comment4.params=
+comment4.target=void\ toColor()
+numComments=5

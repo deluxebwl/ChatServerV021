@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=SocketZustand
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ SocketZustand.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=socket\ zustand
+comment1.target=SocketZustand(java.net.Socket,\ ChatAnwendungsschichtZustand)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ SocketZustand\r\n
+comment2.params=zustand
+comment2.target=void\ nextState(ChatAnwendungsschichtZustand)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

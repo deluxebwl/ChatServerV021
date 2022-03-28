@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TCPVerbundenClient
+comment0.text=\r\n\ Der\ Zustand\ TCPVerbundenClient\ gilt\ beim\ Client\ nachdem\ die\ TCP-Verbindung\ aufgebaut\ wurde.\r\n\ <p>\r\n\ Es\ k\u00F6nnen\ in\ diesem\ Zustand\ folgende\ Methoden\ ausgef\u00FChrt\ werden\:\ <p>\r\n\ Client\:\r\n\ <ul>\r\n\ <li>\ VerbindungsabbauAnfrageREQ\r\n\ <li>\ VerbindungsabbauIND\r\n\ <li>\ TextAnmeldenREQ\r\n\ <li>\ TextIND\r\n\ </ul>\r\n\ <p>\r\n\ Es\ gibt\ nur\ eine\ Instanz\ dieser\ Klasse,\ die\ mit\ dem\ Singelton-Pattern\ verwaltet\ wird.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-11-17\r\n
+comment1.params=
+comment1.target=TCPVerbundenClient\ getSingelton()
+comment1.text=\r\n\ Gibt\ das\ Singelton\ zur\u00FCck.\ Ein\ Singelton\ wird\ beim\ ersten\ Aufruf\ erzeugt.\r\n\ @return\ Singelton\r\n
+comment2.params=
+comment2.target=TCPVerbundenClient()
+comment2.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ TCPVerbundenClient\r\n
+comment3.params=kontext\ ici\ sdu
+comment3.target=void\ VerbindungsabbauAnfrageREQ(ChatAnwendungsschicht,\ ICI,\ SDU)
+comment3.text=\r\n\ VerbindungsabbauAnfrageREQ\r\n
+comment4.params=kontext\ ici\ sdu
+comment4.target=void\ VerbindungsabbauIND(ChatAnwendungsschicht,\ ICI,\ SDU)
+comment4.text=\r\n\ VerbindungsabbauIND\r\n
+comment5.params=kontext\ ici\ sdu
+comment5.target=void\ TextAnmeldenREQ(ChatAnwendungsschicht,\ ICI,\ SDU)
+comment5.text=\r\n\ TextAnmeldenREQ\r\n
+comment6.params=kontext\ ici\ sdu
+comment6.target=void\ TextIND(ChatAnwendungsschicht,\ ICI,\ SDU)
+comment6.text=\r\n\ TextIND\r\n
+numComments=7

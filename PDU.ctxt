@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PDU
+comment0.text=\r\n\ Eine\ Protocol\ Data\ Unit\ (PDU)\ wird\ zwischen\ den\ Partnerinstanzen\ ausgetauscht.\ \r\n\ Sie\ enth\u00E4lt\ strukturiert\ einen\ Header\ und\ die\ Nutzlast\ (SDU).\r\n\ \r\n\ Der\ Header\ speichert\ die\ Kontrollinformationen\ f\u00FCr\ die\ aktuelle\ Schicht.\r\n\ \r\n\ Eine\ PDU\ kann\ die\ Struktur\ auch\ aufgeben\ und\ Headeer\ und\ SDU\ in\ einer\ Zeichenkette\ kodieren.\r\n\ Bei\ der\ Erzeugung\ kann\ aus\ einer\ unstrukturierten\ Zeichenkette\ die\ Darstellung\ in\ Header\ und\ SDU\ erstellt\ werden.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-09-30\r\n
+comment1.params=header\ sdu
+comment1.target=PDU(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ PDU\r\n\ @param\ header\ Header\ der\ Nachricht\r\n\ @param\ sdu\ Datenteil\ der\ Nachricht\r\n
+comment2.params=pdu
+comment2.target=PDU(java.lang.String)
+comment2.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ PDU\r\n\ Die\ Daten\ werden\ als\ Header\ und\ SDU\ gespeichert.\r\n\ @param\ pdu\ gesamte\ PDU\ der\ Nachricht\ mit\ Header\ und\ Datenteil,\ getrennt\ von\ einem\ Doppelpunkt\r\n
+comment3.params=
+comment3.target=java.lang.String\ getPDU()
+comment3.text=\r\n\ Wandelt\ den\ gespeicherten\ Header\ und\ SDU\ in\ eine\ PDU\ um.\ \r\n\ Die\ PDU\ besteht\ aus\ dem\ Header\ gefolgt\ von\ einem\ Doppelpunkt\ und\ schlie\u00DFt\ mir\ der\ SDU\ ab.\r\n\ return\ PDU\r\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ClientVerbindung
+comment0.text=\r\n\ Eine\ ClientVerbindung\ stellt\ die\ Verbindung\ zu\ einem\ Server\ her\ und\ startet\ einen\ ConnectionHandler\ f\u00FCr\ diese\ Verbindung.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-11-17\r\n
+comment1.params=
+comment1.target=ClientVerbindung()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Verbindung\r\n
+comment2.params=ipAdresse\ port
+comment2.target=java.net.Socket\ openConnection(java.lang.String,\ int)
+comment2.text=\r\n\ Stellt\ eine\ Verbindung\ zu\ einem\ Server\ her.\ Startet\ einen\ ConnectionHandler.\r\n\ @param\ ipAdresse\ IP-Adresse\ des\ Servers\r\n\ @param\ port\ Port\ des\ Servers\r\n\ @return\ Socket\ der\ neuen\ Verbindung\r\n
+comment3.params=
+comment3.target=void\ closeConnection()
+comment3.text=\r\n\ Schlie\u00DFt\ die\ Verbindung\ und\ den\ ConnectionHandler.\r\n
+numComments=4

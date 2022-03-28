@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ChatClient
+comment0.text=\r\n\ Ein\ ChatClient\ ist\ ein\ Teilnehmer\ in\ einer\ Chatkonferenz.\ \r\n\ Er\ verbindet\ sich\ mit\ einem\ ChatServer,\ dessen\ IP\ \u00FCber\ den\ Aufrufparameter\ mitgegeben\ werden\ muss.\r\n\ <p>\r\n\ Es\ \u00F6ffnen\ sich\ zwei\ Fenster\:\r\n\ <ul>\r\n\ <li>Im\ Anzeigefenster\ werden\ alle\ Nachrichten\ des\ Chats\ angezeigt.\r\n\ <li>Im\ Eingabefenster\ kann\ eine\ Chatzeile\ einegegeben\ werden.\r\n\ Nach\ dem\ Absenden\ der\ Chatzeile\ \u00F6ffnet\ sich\ das\ Fenster\ stets\ erneut.\r\n\ </ul>\r\n\ <p>\r\n\ Schreibt\ ein\ Konferenzteilnehmer\ die\ Nachricht\ ENDE\ (Gro\u00DF-\ und\ Kleinschreibung\ werden\ ignoriert),\ \r\n\ so\ wird\ die\ Konferenz\ f\u00FCr\ alle\ Teilnehmer\ beendet.\ \r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-11-17\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Startet\ den\ Clientserver,\ Hauptprogramm\r\n\ @param\ args\ Feld\ von\ Argumenten,\ die\ in\ der\ Komandozeile\ mit\ angegeben\ werden.\ hier\:\ <code>args[0]</code>\ ist\ die\ IP-Adresse\ des\ Servers\ \r\n
+comment2.params=ip\ port
+comment2.target=ChatClient(java.lang.String,\ int)
+comment2.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ ChatClient\r\n\ @param\ ip\ IP-Adresse\ des\ Servers\r\n\ @param\ port\ Port\ des\ Servers\r\n
+comment3.params=ici\ sdu
+comment3.target=void\ TextIND(ICI,\ SDU)
+comment3.text=\r\n\ Zeigt\ eine\ Text\u00FCbertragung\ an\ und\ gibt\ diese\ auf\ der\ Anzeigefenster\ aus.\r\n\ @param\ ici\ Verbindung\r\n\ @param\ sdu\ In\ <code>sdu.text</code>\ wird\ der\ Text\ \u00FCbergeben\r\n
+comment4.params=ici\ sdu
+comment4.target=void\ VerbindungsaufbauCONF(ICI,\ SDU)
+comment4.text=\r\n\ Der\ Verbindungsaufbau\ wurde\ abgeschlossen.\ <p>\r\n\ Wenn\ die\ Verbindung\ erfolgreich\ aufgebaut\ wurde\ gilt\:\ <code>ici.socket\!\=null</code>\ <p>\r\n\ Ansonsten\ wurde\ keine\ Verbindung\ aufgebau.\r\n\ @param\ ici\ Verbindung\r\n\ @param\ sdu\ wird\ nicht\ genutzt\r\n
+comment5.params=ici\ sdu
+comment5.target=void\ VerbindungsabbauIND(ICI,\ SDU)
+comment5.text=\r\n\ Der\ Verbindungsabbau\ wurde\ veranlasst.\ <p>\r\n\ Der\ Client\ wird\ geschlossen.\r\n\ @param\ ici\ wird\ nicht\ genutzt\r\n\ @param\ sdu\ wird\ nicht\ genutzt\r\n
+comment6.params=text
+comment6.target=void\ send(java.lang.String)
+comment6.text=\r\n\ Meldet\ eine\ Nachricht\ am\ Server\ an.\ Sollte\ die\ Nachricht\ aus\ dem\ Wort\ "Ende"\ bestehen,\ so\ wird\ zus\u00E4tzlich\ ein\ Verbindungsabbau\ angefragt.\r\n\ @para\ text\ Nachricht,\ die\ an\ den\ Server\ geschickt\ wird.\r\n
+comment7.params=
+comment7.target=void\ close()
+comment7.text=\r\n\ Schlie\u00DFt\ das\ Programm\ und\ alle\ gestarteten\ Threads.\r\n
+numComments=8

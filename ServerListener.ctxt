@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ServerListener
+comment0.text=\r\n\ Ein\ ServerListener\ soll\ einen\ Port\ durchg\u00E4ngig\ abhorchen\ und\ f\u00FCr\ jeden\ Verbindugsaufbau\ einen\ ClientHandler\ erzeugen.\r\n\ \r\n\ Die\ Anwendungsschicht\ wird\ \u00FCber\ einen\ erfolgreichen\ Verbindungsaufbau\ informiert.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-11-17\r\n
+comment1.params=port\ anwendungsschicht
+comment1.target=ServerListener(int,\ ChatAnwendungsschicht)
+comment1.text=\r\n\ Erzeugt\ einen\ ServerListener.\r\n\ @param\ port\ Port,\ auf\ dem\ gehorcht\ werden\ soll\r\n\ @param\ anwendungsschicht\ Anwendungsschicht,\ an\ die\ raportiert\ wird\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ Diese\ Methode\ nicht\ aufrufen.\ Sie\ wird\ \u00FCber\ start()\ gestartet\ (s.\ Thread).\r\n\ <p>\r\n\ <b>Horcht\ auf\ der\ ServerSocket\ und\ erzeugt\ neue\ ConnectionHandler.</b>\ \r\n\ \r\n
+comment3.params=
+comment3.target=void\ close()
+comment3.text=\r\n\ Schlie\u00DFt\ den\ ServerListener\ und\ alle\ ConnectionHandler.\r\n
+numComments=4

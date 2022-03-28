@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Anzeigefenster
+comment0.text=\r\n\ Im\ Anzeigefenster\ werden\ die\ Zeilen\ des\ Chats\ angezeigt.\r\n\ \r\n\ Sind\ alle\ Zeilen\ belegt,\ beginnt\ die\ Anzeige\ der\ n\u00E4chsten\ Zeile\ wieder\ mit\ der\ obersten\ Zeile.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-09-30\r\n
+comment1.params=
+comment1.target=Anzeigefenster()
+comment1.text=\r\n\ Erzeugt\ das\ Anzeigefenster.\r\n
+comment2.params=label\ pos
+comment2.target=void\ anzeigen(javax.swing.JLabel,\ int)
+comment3.params=text
+comment3.target=void\ show(java.lang.String)
+comment3.text=\r\n\ Schreibe\ den\ Text\ in\ die\ aktuelle\ Zeile.\r\n\ Die\ aktuelle\ Zeile\ wechselt\ bei\ einem\ \u00DCberlauf\ wieder\ in\ die\ erste\ Zeile.\r\n\ @param\ text\ Text\ f\u00FCr\ die\ aktuelle\ Zeile\r\n
+comment4.params=
+comment4.target=void\ close()
+comment4.text=\r\n\ Schlie\u00DFt\ das\ Anzeigefenster.\r\n
+numComments=5

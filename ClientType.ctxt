@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ClientType
+comment0.text=\r\n\ Dieser\ Datentyp\ defniert\ die\ Methoden,\ die\ von\ der\ ChatAnwendungsschicht\ bei\ einem\ Client\ aufgerufen\ werden.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-09-30\r\n
+comment1.params=ici\ sdu
+comment1.target=void\ TextIND(ICI,\ SDU)
+comment1.text=\r\n\ Ein\ neuer\ Text\ kommt\ vom\ Server\ an.\r\n
+comment2.params=ici\ sdu
+comment2.target=void\ VerbindungsaufbauCONF(ICI,\ SDU)
+comment2.text=\r\n\ Der\ Verbindungsaufbau\ wird\ best\u00E4tigt.\r\n
+comment3.params=ici\ sdu
+comment3.target=void\ VerbindungsabbauIND(ICI,\ SDU)
+comment3.text=\r\n\ Der\ Verbindungsabbau\ wird\ angezeigt.\r\n
+numComments=4

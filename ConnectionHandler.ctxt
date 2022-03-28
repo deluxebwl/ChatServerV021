@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ConnectionHandler
+comment0.text=\r\n\ Ein\ ClientHandler\ ist\ f\u00FCr\ genau\ eine\ Verbindung\ (Socket)\ zust\u00E4ndig.\r\n\ Er\ soll\ alle\ eingehenden\ TCP-Pakete\ unver\u00E4ndert\ in\ den\ Eingangspuffer\ einf\u00FCgen.\r\n\ Alle\ Pakte\ im\ Ausgangspuffer\ werden\ \u00FCber\ TCP\ verschickt.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-11-17\r\n
+comment1.params=s
+comment1.target=ConnectionHandler(java.net.Socket)
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ Diese\ Methode\ nicht\ aufrufen.\ Sie\ wird\ \u00FCber\ start()\ gestartet\ (s.\ Thread).\r\n\ <p>\r\n\ <b>Die\ Bearbeitung\ der\ eintreffenden\ Nachrichten\ als\ eigener\ Thread</b>\ \r\n\ <p>\r\n\ Kommen\ Nachrichten\ vom\ entfernten\ System\ \u00FCber\ den\ TCP-Eingabestrom\ auf\ dieser\ Seite\ an,\ \r\n\ so\ werden\ diese\ hier\ gelesen\ und\ in\ einen\ Eingangskommunikationspuffer\ f\u00FCr\ die\ Anwendungsschicht\ geschoben.\r\n\ <p>\r\n\ Werden\ Nachrichten\ von\ der\ Anwendunsgschicht\ in\ den\ Ausgangskommunikationspuffer\ geschrieben,\ so\ werde\ diese\ hier\ gelesen\ und\ an\ den\ Ausgabestrom\ von\ TCP\ weitergereicht.\ \r\n
+comment3.params=
+comment3.target=void\ close()
+comment3.text=\r\n\ Schlie\u00DFt\ die\ Verbindung.\r\n\ Die\ zur\ Verbindung\ geh\u00F6rende\ Socket\ wird\ ebenfalls\ geschlossen.\r\n
+numComments=4

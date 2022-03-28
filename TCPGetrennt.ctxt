@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TCPGetrennt
+comment0.text=\r\n\ Der\ Zustand\ TCPGetrennt\ gilt\ nachdem\ die\ TCP-Verbindung\ abgebaut\ wurde.\r\n\ <p>\r\n\ Es\ k\u00F6nnen\ in\ diesem\ Zustand\ keine\ Methoden\ ausgef\u00FChrt\ werden.\r\n\ <p>\r\n\ Es\ gibt\ nur\ eine\ Instanz\ dieser\ Klasse,\ die\ mit\ dem\ Singelton-Pattern\ verwaltet\ wird.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-11-17\r\n
+comment1.params=
+comment1.target=TCPGetrennt\ getSingelton()
+comment1.text=\r\n\ Gibt\ das\ Singelton\ zur\u00FCck.\ Ein\ Singelton\ wird\ beim\ ersten\ Aufruf\ erzeugt.\r\n\ @return\ Singelton\r\n
+comment2.params=
+comment2.target=TCPGetrennt()
+comment2.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ TCPGetrennt\r\n
+numComments=3

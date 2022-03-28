@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ChatServer
+comment0.text=\r\n\ Mit\ einem\ ChatServer\ k\u00F6nnen\ sich\ ChatClients\ zu\ einer\ Chatkonferenz\ verbinden.\r\n\ \r\n\ Der\ ChatServer\ schickt\ daf\u00FCr\ den\ Text\ der\ einkommenden\ Nachrichten\ an\ alle\ Teilnehmer.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-11-17\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Startet\ den\ Chatserver,\ Hauptprogramm\r\n\ @param\ args\ wird\ nicht\ genutzt\r\n
+comment2.params=port
+comment2.target=ChatServer(int)
+comment2.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ ChatServer\r\n\ @param\ port\ Port,\ auf\ dem\ der\ Server\ horchen\ soll\r\n
+comment3.params=ici\ sdu
+comment3.target=void\ ListenCONF(ICI,\ SDU)
+comment3.text=\ \r\n\ Anmeldung\ einer\ neuen\ Verbindung\ am\ Server.\r\n\ <p>\r\n\ Die\ neue\ Verbindung\ wird\ in\ die\ Liste\ aller\ Clientverbindungen\ aufgenommen.\r\n\ @param\ ici\ neue\ Verbindung\r\n\ @param\ sdu\ wird\ nicht\ genutzt\r\n
+comment4.params=ici\ sdu
+comment4.target=void\ TextAnmeldenIND(ICI,\ SDU)
+comment4.text=\r\n\ Anzeige\ eines\ Textwunsches\ beim\ Server.\ <p>\r\n\ Es\ wird\ eine\ Textanforderung\ f\u00FCr\ diesen\ Text\ an\ alle\ bekannten\ Clientverbindungen\ geschickt.\r\n\ @param\ ici\ Verbindung,\ von\ der\ der\ Textwunsch\ kommt\r\n\ @param\ sdu\ <code>sdu.text</code>\:\ Text,\ der\ \u00FCbertragen\ werden\ soll\r\n
+comment5.params=ici\ sdu
+comment5.target=void\ VerbindungsabbauAnfrageIND(ICI,\ SDU)
+comment5.text=\r\n\ Anzeige\ eines\ Verbindungsabbauwunsches\ beim\ Server.\ <p>\r\n\ Es\ wird\ eine\ Verbindungsabbauanforderung\ an\ alle\ bekannten\ Clientverbindungen\ geschickt.<p>\r\n\ Es\ wird\ der\ Server\ geschlossen.\r\n\ @param\ ici\ Verbindung,\ von\ der\ der\ Verbindungsabbauwunsch\ kommt\r\n\ @param\ sdu\ wird\ nicht\ genutzt\r\n
+comment6.params=
+comment6.target=void\ close()
+comment6.text=\r\n\ Beendet\ alle\ Prozesse\ des\ Chatservers\r\n
+numComments=7

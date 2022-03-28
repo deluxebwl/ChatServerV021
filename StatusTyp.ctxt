@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=StatusTyp
+comment0.text=\r\n\ Aufz\u00E4hlung\ von\ m\u00F6glichen\ Stati\:\r\n\ ACCEPT\:\ die\ Partnerschicht\ hat\ eine\ Operation\ akzeptiert\r\n\ REJECT\:\ die\ Partnerschicht\ hat\ eine\ Operation\ abgelehnt\r\n\ NO_STATUS\:\ kein\ Status\ gesetzt\r\n
+numComments=1

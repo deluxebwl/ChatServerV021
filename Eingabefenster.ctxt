@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Eingabefenster
+comment0.text=\r\n\ In\ einem\ Eingabefenster\ kann\ ein\ Zeile\ f\u00FCr\ die\ Chatkonferenz\ eingegeben\ werden.\r\n\ Nach\ dem\ Abschicken\ wird\ diese\ an\ alle\ anderen\ Konferenzteilnehmer\ verteilt.\r\n\ \r\n\ Da\ ein\ Schlie\u00DFen\ des\ Fensters\ die\ Zeichenkette\ "null"\ sendet,\ wurde\ die\ Ausgabe\ von\ "null"\ abgfangen.\r\n\ "null"\ wird\ nicht\ dargestellt\ (Gro\u00DF-\ und\ Kleinschreibung\ wird\ nicht\ beachtet).\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-09-30\r\n
+comment1.params=client
+comment1.target=Eingabefenster(ChatClient)
+comment2.params=
+comment2.target=java.lang.String\ ask()
+comment2.text=\r\n\ Zeigt\ den\ Dialog\ an.\r\n\ @return\ eingegebener\ Text\ oder\ "null",\ wenn\ das\ Fenster\ mit\ Cancel\ geschlossen\ wird\r\n
+comment3.params=
+comment3.target=void\ run()
+comment3.text=\r\n\ Diese\ Methode\ nicht\ aufrufen.\ Sie\ wird\ \u00FCber\ start()\ gestartet\ (s.\ Thread).\r\n\ <p>\r\n\ <b>Wiederholtes\ Anzeigen\ des\ Dialogfensters</b>\r\n
+comment4.params=
+comment4.target=void\ close()
+comment4.text=\r\n\ Schlie\u00DFt\ das\ Eingabefenster.\r\n
+numComments=5

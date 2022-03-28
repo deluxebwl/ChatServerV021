@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ICI
+comment0.text=\r\n\ Eine\ Information\ Control\ Information\ wird\ nicht\ \u00FCber\ das\ Netzwerk\ \u00FCbertragen\ sondern\ steuert\ die\ Bearbeitung\ des\ Dienstes.\r\n\ <p>\r\n\ Es\ gibt\ die\ Belegungen\:\r\n\ <ul>\r\n\ <li>\ port\ \:\ Die\ ServerSocket\ soll\ initialisert\ werden.\r\n\ <li>\ ip,\ port\ \:\ Eine\ Verbindung\ zum\ Server\ soll\ hergestellt\ werden.\r\n\ <li>\ socket\ \:\ Die\ Verbindung\ ist\ hergestellt.\r\n\ </ul>\r\n\ <p>\r\n\ Die\ update-Methode\ wechselt\ von\ der\ Belegung\ (ip,port)\ zu\ (socket).\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-11-17\r\n
+comment1.params=socket
+comment1.target=ICI(java.net.Socket)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ ICI\r\n\ @param\ socket\ Socket\ der\ Verbindung\r\n
+comment2.params=ip\ port
+comment2.target=ICI(java.lang.String,\ int)
+comment2.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ ICI\r\n\ @param\ ip\ IP-Adresse\ des\ Servers\r\n\ @param\ port\ Port\ des\ Servers\r\n
+comment3.params=port
+comment3.target=ICI(int)
+comment3.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ ICI\r\n\ @param\ port\ Port\ der\ ServerSocket\ des\ Servers\r\n
+comment4.params=socket
+comment4.target=void\ update(java.net.Socket)
+comment4.text=\r\n\ Wechselt\ von\ der\ ip,port-Belegung\ in\ die\ socket-Belegung.\r\n\ @param\ socket\ Socket\ der\ Verbindung\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Ausgabe\ des\ Inhalts\ eines\ ICI\ als\ String.\r\n\ \u00DCberschreibt\ die\ toString()-Methode\ von\ Object.\r\n\ @return\ Ausgabetext\ des\ Inhalts\ der\ Struktur\r\n
+numComments=6

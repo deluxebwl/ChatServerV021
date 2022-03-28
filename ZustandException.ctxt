@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ZustandException
+comment0.text=\r\n\ ZustandException\ ist\ eine\ spezielle\ Ausnahme\ f\u00FCr\ Zustandsfehler.\r\n\ Es\ wird\ damit\ nur\ eine\ neue\ Art\ von\ Ausnahme\ eingef\u00FChrt.\ \r\n\ Sie\ hat\ keinen\ besondere\ Zustand\ und\ kein\ besonderes\ Verhalten.\r\n\ \r\n\ @author\ LK\r\n\ @version\ 2021-11-17\r\n
+comment1.params=
+comment1.target=ZustandException()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ ZustandException\r\n
+numComments=2
